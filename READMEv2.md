@@ -1,6 +1,8 @@
 # Consulta el estado de una identificación contra el servidor de Hacienda usando el API público
 
-Consulta el estado de una identificación desde la línea de comandos de linux, usando curl.
+Consulta el estado de una identificación desde la línea de comandos de linux, usando curl y jq y continene una cache de 7 días.
+
+La cache entrega los datos siempre y cuando el registro no haya expirado. Si ya expiró, se hará la consulta desde el API de Hacienda y almacenará por 7 días.
 
 Para probar el script desde la línea de comandos en Linux, puedes ejecutarlo pasando el parámetro IDENTIFICACION directamente. Aquí están los pasos:
 
