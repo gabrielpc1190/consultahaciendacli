@@ -42,4 +42,5 @@ Si todo está correcto, deberías ver la respuesta del API o un mensaje indicand
       "descripcion": "VENTA AL POR MENOR DE SUMINISTROS Y/0 EQUIPO DE OFICINA"
     }
   ]
-}```
+}
+```
